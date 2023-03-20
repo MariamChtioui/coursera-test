@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site ville intelligente</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/96dcb489df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- section acceuil -->
+     <section id="container">
+     
+    <header>
+        <div class="logo">
+            <p> <Label>Smart city</Label></p>
+        </div>
+        <!-- menu responsive -->
+        <div class="menu-toggle"></div>
+
+        <ul class="menu">
+            <li><a href="#container">Acceuil</a></li>
+            <li><a href="#enjeux">Enjeux</a></li>
+            <li><a href="#Solutions">Solutions intelligentes</a></li>
+        </ul>
+    </header>
+    <div class="container-text">
+        <h1>Vivre intelligemment</h1>
+        
+        
+     </div>
+  
+     
+    </section> 
+</body>
+
+<!-- section objectifs -->
+<section id="enjeux">
+    <div>
+        <p class="tittle-section"> Les enjeux de la smart city</p>
+        <h1 class="sub-tittle-section">Pourquoi une ville intelligente ?</h1>
+        <div class="description-photo">
+                <div class="desc">
+                    <p>La ville intelligente permet d'utiliser la technologie pour améliorer la qualité de vie des habitants, créer des environnements plus durables et vivables et rendre les villes plus efficaces.</p>
+
+                    <H2>Les enjeux principales</H2>
+                    <div class="list-enjeux">
+                        <div class="service">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <p>ENVIRONNEMENT</p>
+                        </div>
+                        <div class="service">
+                            <i class="fas fa-money-check-alt"></i>
+                            <p>ECONOMIE</p>
+                        </div>
+                        <div class="service">
+                            <i class="fas fa-check"></i>
+                            <p>TRANSPORT</p>
+                        </div>
+                    </div>
+            </div>
+            <img src="image/enjeux2.jpg.jpg" alt="">
+        </div>
+    </div>
+</section> 
+<section id="Solutions" class="sol">
+    <div>
+        <p class="tittle-section"> Solutions intelligentes</p>
+    </div>
+    <div class="contenu"  >
+        <div class="box">
+            <div class="photo">
+                <img src="image/sol1" alt="">
+            </div>
+            <div class="text">
+                <h3>Bâtiments écologiques</h3>
+            </div>
+        </div>
+        
+        <div class="box">
+                <div class="photo">
+                    <img src="image/sol2.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Contrôle intelligent du trafic et mises à jour en temps réel</h3>
+                </div>
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img src="image/sol3.png" alt="">
+            </div>
+            <div class="text">
+                <h3>Parking automatique intelligent</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img src="image/sol4" alt="">
+            </div>
+            <div class="text">
+                <h3>Couverture Wi-Fi complète</h3>
+            </div>
+        </div>    
+        <div class="box">
+            <div class="photo">
+                <img src="image/sol5.png" alt="">
+            </div>
+            <div class="text">
+                <h3>véhicules électriques</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img src="image/sol6.png" alt="">
+            </div>
+            <div class="text">
+                <h3>Éclairage public intelligent</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img src="image/sol7.png" alt="">
+            </div>
+            <div class="text">
+                <h3>La gestion intelligente des déchets </h3>
+            </div>
+        </div>
+
+
+<script>
+    var menu_toggle = document.querySelector('header .menu-toggle');
+    var menu = document.querySelector('header .menu');
+    menu_toggle.onclick = function(){
+        menu_toggle.classList.toggle('active') ; 
+        menu.classList.toggle('responsive') ; 
+    }
+</script>
+
+
+    
+</section >
+
+</body>
+</html>
+
+
+
+
